@@ -18,7 +18,7 @@ function Clicked(e){
     console.log("clicked");
     const d = {c};
     
-    axios.get("https://api.openweathermap.org/data/2.5/weather?q=" + c + "&appid={API key}").then((resp) => {
+    axios.get("https://api.openweathermap.org/data/2.5/weather?q=" + c + "&appid={API KEY}").then((resp) => {
         console.log(resp.data.main.temp);
         z(Math.round(resp.data.main.temp-273) + "°C");
      }).catch((error) => {
