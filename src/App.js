@@ -46,7 +46,7 @@ function Clicked(e){
 return(<div id = "uy">
  <h1 className = "styl" >   <img src =  {images} alt = "Hello" className = "imager" />   WEATHER API </h1> 
     <form action = "" method = "post" >
-<input type = "text" placeholder = "Enter City Name" id = "lolo" onChange = {Changed} ></input>
+<input type = "text" placeholder = "Enter City Name" onChange = {Changed} ></input>
 <button type = "submit" onClick = {Clicked}  >Click</button> 
 <h1> {a}  {y}  </h1>
 </form> 
